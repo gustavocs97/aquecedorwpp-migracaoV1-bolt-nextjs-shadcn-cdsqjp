@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.countdown-timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
